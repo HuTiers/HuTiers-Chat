@@ -10,6 +10,6 @@ public class AsyncChatListener implements Listener {
     @EventHandler
     public void onMessage(AsyncChatEvent event) {
         event.setCancelled(true);
-        Messenger.send("message", event.getPlayer().getName() + " " + PlainTextComponentSerializer.plainText().serialize(event.originalMessage()));
+        Messenger.send("message", event.getPlayer().getUniqueId() + " " + PlainTextComponentSerializer.plainText().serialize(event.originalMessage()));
     }
 }
