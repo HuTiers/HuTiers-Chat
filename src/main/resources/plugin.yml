@@ -1,0 +1,5 @@
+name: HuTiers-Chat
+version: '1.0'
+main: hu.jgj52.huTiersChat.HuTiersChat
+api-version: '1.21'
+authors: [ JGJ52 ]
