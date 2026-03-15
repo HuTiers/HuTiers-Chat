@@ -6,7 +6,7 @@
 
     <groupId>hu.jgj52</groupId>
     <artifactId>hutiers-chat</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>hutiers-chat</name>
